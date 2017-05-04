@@ -46,7 +46,7 @@ input[type=submit]:hover {
   color: #5e7f7e;
 }*/
 
-nav a:link {
+/*nav a:link {
         color: #cccccc; 
         background-color: transparent; 
         text-decoration: none;
@@ -68,8 +68,12 @@ nav a:active {
         color: yellow;
         background-color: transparent;
         text-decoration: underline;
-    }
+    }*/
 
+.lastname {
+  font-family: fantasy;
+  color: grey;
+}
 .social:hover {
   cursor: pointer;
   opacity: 0.8;
