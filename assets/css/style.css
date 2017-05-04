@@ -71,8 +71,8 @@ nav a:active {
     }*/
 
 .lastname {
-  font-family: fantasy;
-  color: grey;
+  font-family: 'Megrim', cursive;
+  color: white;
 }
 .social:hover {
   cursor: pointer;
