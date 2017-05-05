@@ -128,7 +128,20 @@ nav a:first-child {
   border-left: 0 none;
 }
 
-footer {
+.collapse {
+  background-color: white;
+}
+
+.navbar-toggle {
+  background-color: grey;
+}
+.navbar {
+  border-style: none;
+}
+.navbar-header {
+  background-color: white;
+}
+  footer {
   padding: 30px 0;
   clear: both;
   font-size: 12px;
