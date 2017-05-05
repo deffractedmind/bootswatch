@@ -3,7 +3,6 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777;
-  /*background: url("../images/concrete_seamless.png");*/
   background-image: url("../images/abstract-2179083_1920.jpg");
 }
 
@@ -11,10 +10,6 @@ body {
   box-sizing: border-box;
   margin: 0;
 }
-
-/* sticky footer styling */
-
-/* http://ryanfait.com/html5-sticky-footer/ */
 
 html,
 body {
@@ -33,42 +28,10 @@ footer,
   height: 105px;
 }
 
-/* end sticky footer styling */
-
-/* start hover styling */
-
 #logo:hover,
 input[type=submit]:hover {
   background: #5e7f7e;
 }
-
-/*nav a:hover {
-  color: #5e7f7e;
-}*/
-
-/*nav a:link {
-        color: #cccccc; 
-        background-color: transparent; 
-        text-decoration: none;
-    }
-
-nav a:visited {
-        color: #cccccc;
-        background-color: transparent;
-        text-decoration: none;
-    }
-
-nav a:hover {
-        color: red;
-        background-color: transparent;
-        text-decoration: underline;
-    }
-
-nav a:active {
-        color: yellow;
-        background-color: transparent;
-        text-decoration: underline;
-    }*/
 
 .lastname {
   font-family: 'Megrim', cursive;
@@ -78,10 +41,6 @@ nav a:active {
   cursor: pointer;
   opacity: 0.8;
 }
-
-/* end hover styling */
-
-/* general styling */
 
 .container {
   width: 100%;
@@ -124,8 +83,6 @@ h2,
 h3 {
   font-size: 22px;
 }
-
-/* header */
 
 #masthead {
   position: fixed;
@@ -171,8 +128,6 @@ nav a:first-child {
   border-left: 0 none;
 }
 
-/* footer */
-
 footer {
   padding: 30px 0;
   clear: both;
@@ -185,8 +140,6 @@ footer {
   position: relative;
   z-index: 999;
 }
-
-/* sidebar */
 
 .sidebar {
   float: right;
@@ -216,8 +169,6 @@ h3,
 .social:last-child {
   margin-right: 0;
 }
-
-/* main */
 
 #main-container {
   padding-top: 130px;
@@ -268,7 +219,6 @@ h3.portfolio {
   font-family: 'Megrim', cursive;
   border-bottom-style: none;
 }
-/* contact page */
 
 #contact-form ul {
   margin-bottom: 20px;
@@ -307,25 +257,3 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
-
-/*@media screen and (max-width: 768px) {
-  .wrapper  {
-    width: 600px;
-  }
-  .image {
-    width: 80%;
-    height: 80%;
-  }
-  .label, h3.portfolio {
-    width: 172px;
-    font-size: 80%;
-  }
-
-}
-
-@media screen and (max-width: 480px) {
-  .wrapper {
-    width: 375px;
-  }
-
-}*/
