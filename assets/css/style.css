@@ -257,3 +257,12 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (max-width: 1024px) {
+  .sidebar {
+    float: left;
+  }
+  #logo {
+    width: 100%;
+  }
+}
